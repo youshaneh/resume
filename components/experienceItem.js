@@ -6,7 +6,7 @@ export default function ExperienceItem({
   return (
     <div className="item">
       <div className="icon">
-        <StaticImage src={icon} width="240" height="240" />
+        <StaticImage src={icon} alt={company} width="240" height="240" />
       </div>
       <div className="item-header strong">
         <p className="timeframe">{timeframe}</p>

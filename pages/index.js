@@ -27,17 +27,17 @@ export default function Home() {
           <div className="container">
             <div className="wrapper">
               <div className="image-wrapper">
-                <StaticImage src="images/avatar.jpg" width="380" height="507" />
+                <StaticImage src="images/avatar.jpg" alt="Picture of You-Sheng Huang" width="380" height="507" />
               </div>
               <div className="content">
                 <h2 className="title">About</h2>
                 <p>
-                  I'm a full stack developer with over 5 years of professional experience designing and developing different kinds of systems.
+                  I&apos;m a full stack developer with over 5 years of professional experience designing and developing different kinds of systems.
                   I have a strong understanding of CSS, JavaScript, React, Node.js, Java, and MySQL.
                 </p>
                 <h2 className="title">Information</h2>
                 <p>
-                  GitHub: <a href="https://github.com/youshaneh" target="_blank">github.com/youshaneh</a><br />
+                  GitHub: <a href="https://github.com/youshaneh" target="_blank" rel="noreferrer">github.com/youshaneh</a><br />
                   Email: <a href="mailto:youshaneh@gmail.com">youshaneh@gmail.com</a>
                 </p>
               </div>

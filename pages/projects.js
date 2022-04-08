@@ -27,11 +27,11 @@ export default function Projects() {
               <div className="content">
                 <div className="snapshot-wrapper">
                   <div className="snapshot">
-                    <StaticImage src="images/projects/chyushya.jpg" width={640} height={360} />
+                    <StaticImage src="images/projects/chyushya.jpg" alt="Static Website CMS" width={640} height={360} />
                   </div>
                   <div className="menu">
-                    <a href="https://chyushya.com.tw" target="_blank">Visit</a>
-                    <a href="https://github.com/youshaneh/cms" target="_blank">GitHub</a>
+                    <a href="https://chyushya.com.tw" target="_blank" rel="noreferrer">Visit</a>
+                    <a href="https://github.com/youshaneh/cms" target="_blank" rel="noreferrer">GitHub</a>
                   </div>
                 </div>
                 <div className="description">
@@ -54,10 +54,10 @@ export default function Projects() {
               <div className="content">
                 <div className="snapshot-wrapper">
                   <div className="snapshot">
-                    <StaticImage src="images/projects/iredeem.jpg" width={640} height={360} />
+                    <StaticImage src="images/projects/iredeem.jpg" alt="Award Ticket Finder" width={640} height={360} />
                   </div>
                   <div className="menu">
-                    <a href="https://github.com/youshaneh/iredeem" target="_blank">GitHub</a>
+                    <a href="https://github.com/youshaneh/iredeem" target="_blank" rel="noreferrer">GitHub</a>
                   </div>
                 </div>
                 <div className="description">
@@ -82,11 +82,11 @@ export default function Projects() {
               <div className="content">
                 <div className="snapshot-wrapper">
                   <div className="snapshot">
-                    <StaticImage src="images/projects/caerus.jpg" width={640} height={360} />
+                    <StaticImage src="images/projects/caerus.jpg" alt="Caerus" width={640} height={360} />
                   </div>
                   <div className="menu">
-                    <a href="https://caerus.com.tw" target="_blank">Visit</a>
-                    <a href="https://github.com/youshaneh/sharkec-caerus" target="_blank">GitHub</a>
+                    <a href="https://caerus.com.tw" target="_blank" rel="noreferrer">Visit</a>
+                    <a href="https://github.com/youshaneh/sharkec-caerus" target="_blank" rel="noreferrer">GitHub</a>
                   </div>
                 </div>
                 <div className="description">
@@ -107,11 +107,11 @@ export default function Projects() {
               <div className="content">
                 <div className="snapshot-wrapper">
                   <div className="snapshot">
-                    <StaticImage src="images/projects/blue.jpg" width={640} height={360} />
+                    <StaticImage src="images/projects/blue.jpg" alt="Blue" width={640} height={360} />
                   </div>
                   <div className="menu">
-                    <a href="https://bluewax.com.tw" target="_blank">Visit</a>
-                    <a href="https://github.com/youshaneh/sharkec-blue" target="_blank">GitHub</a>
+                    <a href="https://bluewax.com.tw" target="_blank" rel="noreferrer">Visit</a>
+                    <a href="https://github.com/youshaneh/sharkec-blue" target="_blank" rel="noreferrer">GitHub</a>
                   </div>
                 </div>
                 <div className="description">

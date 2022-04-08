@@ -5,5 +5,5 @@ function imageLoader({ src }) {
 }
 
 export default function StaticImage(props) {
-  return <Image loader={imageLoader} {...props} />  
+  return <Image alt="" loader={imageLoader} {...props} />  
 }

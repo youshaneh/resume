@@ -10,7 +10,7 @@ export default function SkillSet({ header, skills }) {
 
       <div className="items">
         {skills.map(skill => (
-          <div className='skill-border' onMouseEnter={() => setSkill(skill)} onMouseLeave={() => setSkill(null)}>
+          <div key={skill.name} className='skill-border' onMouseEnter={() => setSkill(skill)} onMouseLeave={() => setSkill(null)}>
             <SkillItem skill={skill} />
           </div>
         ))}
