@@ -1,12 +1,16 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import { useRouter } from 'next/router';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Switch } from './switch'
 
 export function Layout({ children }) {
   const [darkMode, setDarkMode] = useState(false);
   const [expanded, setExpanded] = useState(false);
+
+  useEffect(() => {
+    if(window.localStorage.darkmode && JSON.parse(window.localStorage.darkmode)) setDarkMode(true)
+  }, []);
 
   return (
     <div className={`app-warpper ${darkMode ? 'dark-mode' : ''}`}>
