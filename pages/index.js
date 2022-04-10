@@ -32,7 +32,7 @@ export default function Home() {
               <div className="content">
                 <h2 className="title">About</h2>
                 <p>
-                  I&apos;m a full stack developer with over 5 years of professional experience designing and developing different kinds of systems.
+                  I&apos;m a full stack developer with over 5 years of professional experience.
                   I have a strong understanding of CSS, JavaScript, React, Node.js, Java, and MySQL.
                 </p>
                 <h2 className="title">Information</h2>
@@ -64,36 +64,42 @@ export default function Home() {
                 <div className="timeline">
                   <ExperienceItem icon="images/skyline.jpg" timeframe="AUG 2020 - FEB 2021"
                     company="Skyline Worldwide" position="Back End Developer">
-                    <p>
-                      Implement dashboards that incorporate services under different accounts on multiple platforms including AWS, Alibaba Cloud, Tencent Cloud, etc.
-                    </p>
-                    <p>
-                      Work closely with front-end developers and project managers
-                    </p>
+                    <ul>
+                      <li>
+                        Implemented dashboards that incorporate services under different accounts on multiple platforms including AWS, Alibaba Cloud, Tencent Cloud, etc.
+                      </li>
+                      <li>
+                        Worked closely with front-end developers, quality assurance testers, and project managers as needed
+                      </li>
+                    </ul>
                   </ExperienceItem>
                   <ExperienceItem ExperienceItem icon="images/cathay.jpg" timeframe="JUL 2019 - MAR 2020"
                     company="Cathay Insurance" position="Web Developer">
-                    <p>
-                      Implement online payment features for existing services
-                    </p>
-                    <p>
-                      Develop new features for intra-company applications
-                    </p>
+                    <ul>
+                      <li>
+                        Implemented online payment features for existing services
+                      </li>
+                      <li>
+                        Developed new features for company applications
+                      </li>
+                    </ul>
                   </ExperienceItem>
                   <ExperienceItem ExperienceItem icon="images/asus.jpg" timeframe="SEP 2015 - FEB 2019"
                     company="Asus Computer Inc." position="Senior Software Engineer">
-                    <p>
-                      Customize Android framework for OEM software feature
-                    </p>
-                    <p>
-                      Cooperate with board support package team for OEM hardware feature
-                    </p>
-                    <p>
-                      Fix stock Android framework bugs
-                    </p>
-                    <p>
-                      Develop built-in Android apps for Zenfone and ROG Phone
-                    </p>
+                    <ul>
+                      <li>
+                        Customized Android framework for OEM software features
+                      </li>
+                      <li>
+                        Cooperated with board support package team for OEM hardware features
+                      </li>
+                      <li>
+                        Fixed stock Android framework bugs
+                      </li>
+                      <li>
+                        Developed built-in Android apps for Zenfone and ROG Phone
+                      </li>
+                    </ul>
                   </ExperienceItem>
                 </div>
               </div>

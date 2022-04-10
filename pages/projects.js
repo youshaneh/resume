@@ -61,7 +61,7 @@ export default function Projects() {
                   </div>
                 </div>
                 <div className="description">
-                  <h2 className="title">Award Ticket Finder</h2>
+                  <h2 className="title">Reward Ticket Finder</h2>
                   <div className="stack">
                     <StackItem skill={skills.react} />
                     <StackItem skill={skills.redux} />
