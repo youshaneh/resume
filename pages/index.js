@@ -66,10 +66,13 @@ export default function Home() {
                     company="Skyline Worldwide" position="Back End Developer">
                     <ul>
                       <li>
-                        Implemented dashboards that incorporate services under different accounts on multiple platforms including AWS, Alibaba Cloud, Tencent Cloud, etc.
+                        Integrated AWS, Alibaba Cloud, and Tencent Cloud APIs for dashboard apps
                       </li>
                       <li>
-                        Worked closely with front-end developers, quality assurance testers, and project managers as needed
+                        Created and maintained REST APIs using Spring Boot
+                      </li>
+                      <li>
+                        Expertise in databases design and implementation with MySQL
                       </li>
                     </ul>
                   </ExperienceItem>
@@ -77,10 +80,13 @@ export default function Home() {
                     company="Cathay Insurance" position="Web Developer">
                     <ul>
                       <li>
-                        Implemented online payment features for existing services
+                        Integrated online payment platforms using OAuth 2.0
                       </li>
                       <li>
-                        Developed new features for company applications
+                        Converted wireframe to responsive pages using HTML, CSS, and JavaScript
+                      </li>
+                      <li>
+                        Hands on experience in building server-side applications with Java
                       </li>
                     </ul>
                   </ExperienceItem>
@@ -88,16 +94,13 @@ export default function Home() {
                     company="Asus Computer Inc." position="Senior Software Engineer">
                     <ul>
                       <li>
-                        Customized Android framework for OEM software features
+                        Developed native Android apps that have 50,000,000+ installs on Google Play
                       </li>
                       <li>
-                        Cooperated with board support package team for OEM hardware features
+                        Fixed Android Open Source Project bugs using Java
                       </li>
                       <li>
-                        Fixed stock Android framework bugs
-                      </li>
-                      <li>
-                        Developed built-in Android apps for Zenfone and ROG Phone
+                        Customized Android framework for vendor features using Java and JNI
                       </li>
                     </ul>
                   </ExperienceItem>
